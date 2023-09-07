@@ -47,6 +47,7 @@
     document.addEventListener('keydown', function(event) {
         if (event.keyCode === 13) {
             modifyWebpage();
+            setTimeout(modifyWebpage, 300); // Wait for 0.5 seconds (500 milliseconds)
         }
     });
 })();
